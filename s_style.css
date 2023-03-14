@@ -1,0 +1,137 @@
+body {
+    
+    align-items: center;
+	margin: 0;
+	padding: 0;
+    align-items: center;
+    background-image: url('https://images2.alphacoders.com/519/519000.jpg');
+
+}
+h1 {
+    align-items: center;
+    color: rgb(232, 170, 14);
+    font-size: 45px;
+}
+#x00, #x01, #x02, #x10, #x11,
+#x12, #x20, #x21, #x22 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+#main {
+    text-align: center;
+}
+header {
+	background-color: #00AEEA;
+	color: #eee;
+	text-align: center;
+	height: 60px;
+	padding-top: 5px;
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 60px;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+}
+
+p {
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: Sans;
+	text-align: center;
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+    color: rgb(129, 20, 20);
+
+}
+
+a {
+	color: #00AEEA;
+	text-decoration: none;
+}
+a:hover {
+	color: #00AEEA;
+}
+a:visited {
+	color: #00AEEA;
+}
+
+#tab-tic-tac-toe {
+    margin: 0 auto; 
+    border-collapse: separate;
+    border-spacing: 10px; 
+    
+}
+  
+  #tab-tic-tac-toe td {
+    padding: 10px;
+    background-color: #ffffff;
+    width: 60px;
+    height: 32px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+#tab-tic-tac-toe td:hover {
+	background: #ecd9d9;
+}
+
+#but {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid rgb(129, 20, 20);;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    background-color: rgb(129, 20, 20);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#bnt-restart {
+	display: block;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	background: #00AEEA;
+	font-size: 1.5em;
+	color: #FFF;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+    border: 1px solid rgb(129, 20, 20);;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+ 
+    background-color: rgb(129, 20, 20);
+}
+
+#bnt-restart:hover {
+	background: rgb(129, 20, 20);
+}
+
+#bnt-restart:active {
+	background: rgb(129, 20, 20);
+}
+
+#bnt-restart:disabled {
+	color: #ffffff;
+	background:  rgb(129, 20, 20);
+}
